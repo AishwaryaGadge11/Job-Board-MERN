@@ -41,4 +41,17 @@ It fetches job data from live APIs, stores them in MongoDB, and provides an admi
 ---
 
 ## 🗂️ Folder Structure
-
+job-board-mern/
+├── client/ # Next.js frontend
+│ ├── pages/
+│ ├── components/
+│ ├── services/
+│ └── .env.local
+└── server/ # Express backend
+├── index.js
+├── config/
+├── models/
+├── routes/
+├── services/
+├── workers/
+└── .env
